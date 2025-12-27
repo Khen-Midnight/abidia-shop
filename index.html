@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ABIDIA GAMING - Matériel Informatique</title>
+    <!-- Importation de polices modernes style "Gaming" -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 
+        ================================================================
+        PARTIE HTML
+        ================================================================ 
+    -->
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">ABIDIA SHOP</div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">PC Portables</a></li>
+                <li><a href="#">Composants</a></li>
+                <li><a href="#">Périphériques</a></li>
+                <li><a href="#">Audio</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <div class="menu-toggle" id="mobileMenu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>L'ULTIME <span class="highlight">PERFORMANCE</span></h1>
+        <p>Découvrez nos matériels informatiques. Plus modernes. Plus jolies. Plus performants.</p>
+        <button class="btn">PASSER COMMANDE</button>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="section-title">
+            <h2>NOS UNIVERS</h2>
+            <div class="line"></div>
+        </div>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="/src/static/images/abidia-moniteur-2.jpg" alt="PC Gaming">
+                <h3>MONITEUR</h3>
+            </div>
+            <div class="category-card">
+                <img src="/src/static/images/abidia-clavier-2.jpg" alt="Claviers">
+                <h3>CLAVIERS</h3>
+            </div>
+            <div class="category-card">
+                <img src="/src/static/images/abidia-souris-2.jpg" alt="Souris">
+                <h3>SOURIS</h3>
+            </div>
+            <div class="category-card">
+                <img src="/src/static/images/abidia-casque-2.jpg" alt="Audio">
+                <h3>AUDIO</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produits Vedettes -->
+    <section class="products">
+        <div class="section-title">
+            <h2>BEST SELLERS</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="products-grid">
+            <!-- Produit 1 -->
+            <div class="product-card">
+                <div class="product-tag">NOUVEAU</div>
+                <div class="product-image">
+                    <!-- Placeholder SVG pour l'image -->
+                    <svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Blade Stealth 13</h3>
+                    <p class="product-desc">Ultrabook Gaming, écran OLED tactile, GTX 1650 Ti.</p>
+                    <div class="product-bottom">
+                        <span class="price">1 499 €</span>
+                        <button class="add-cart">AJOUTER</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Seiren X Pro</h3>
+                    <p class="product-desc">Microphone à condensateur USB pour le streaming.</p>
+                    <div class="product-bottom">
+                        <span class="price">109 €</span>
+                        <button class="add-cart">AJOUTER</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Viper Ultimate</h3>
+                    <p class="product-desc">Souris gaming sans fil légère, dock de charge inclus.</p>
+                    <div class="product-bottom">
+                        <span class="price">129 €</span>
+                        <button class="add-cart">AJOUTER</button>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Produit 4 -->
+             <div class="product-card">
+                <div class="product-image">
+                    <svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h12"/><path d="M6 12h12"/><path d="M6 16h12"/></svg>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">BlackWidow V3</h3>
+                    <p class="product-desc">Clavier mécanique, switchs verts, RGB Chroma.</p>
+                    <div class="product-bottom">
+                        <span class="price">169 €</span>
+                        <button class="add-cart">AJOUTER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="categories" style="background-color: var(--bg-color);">
+        <div class="section-title">
+            <h2>POURQUOI <span class="highlight">ABIDIA</span> ?</h2>
+            <div class="line"></div>
+        </div>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; gap: 2rem;">
+            <div style="flex: 1; min-width: 250px;">
+                <i class="fas fa-shipping-fast" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                <h3>LIVRAISON RAPIDE</h3>
+                <p style="color: #888;">Livraison en ville de 12h a 14h, et en péripherie de 14h jusqu'en fin de journée.</p>
+            </div>
+            <div style="flex: 1; min-width: 250px;">
+                <i class="fas fa-shield-alt" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                <h3>GARANTIE 2 ANS</h3>
+                <p style="color: #888;">Tous nos produits sont garantis constructeur.</p>
+            </div>
+            <div style="flex: 1; min-width: 250px;">
+                <i class="fas fa-headset" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                <h3>SUPPORT 24/7</h3>
+                <p style="color: #888;">Une équipe d'experts à votre écoute.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>PRODUITS</h4>
+                <ul>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Souris</a></li>
+                    <li><a href="#">Claviers</a></li>
+                    <li><a href="#">Casques</a></li>
+                    <li><a href="#">Streaming</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>SUPPORT</h4>
+                <ul>
+                    <li><a href="#">Garantie</a></li>
+                    <li><a href="#">Pilotes</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>ENTREPRISE</h4>
+                <ul>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Carrières</a></li>
+                    <li><a href="#">Presse</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>SUIVEZ-NOUS</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 ABIDIA Gaming Inc. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Script simple pour le menu mobile -->
+    <script>
+        const mobileMenu = document.getElementById('mobileMenu');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
